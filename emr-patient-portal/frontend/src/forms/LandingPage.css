@@ -1,0 +1,95 @@
+/* LandingPage.css */
+.landing-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f5f8fa;
+  padding: 20px;
+}
+
+.landing-card {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 90%;
+  max-width: 800px;
+}
+
+.landing-card h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #2c3e50;
+}
+
+.subtitle {
+  font-style: italic;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.button-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.button-grid button {
+  background-color: #007bff;
+  border: none;
+  padding: 12px 20px;
+  font-size: 1rem;
+  border-radius: 8px;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.button-grid button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+.search-section {
+  margin-top: 20px;
+}
+
+.search-section h2 {
+  margin-bottom: 15px;
+  color: #2c3e50;
+}
+
+.search-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.search-form input {
+  width: 280px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.search-form button {
+  background-color: #28a745;
+  border: none;
+  padding: 12px 28px;
+  font-size: 1rem;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.search-form button:hover {
+  background-color: #218838;
+  transform: scale(1.05);
+}

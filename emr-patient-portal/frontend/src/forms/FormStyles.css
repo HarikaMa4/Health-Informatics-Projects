@@ -1,0 +1,90 @@
+/* General Form Container */
+.form-container {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 30px 40px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Center the headings */
+.form-container h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Form Layout */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Input and Textarea Fields */
+form input,
+form select,
+form textarea {
+  margin-bottom: 15px;
+  padding: 10px 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Button */
+form button {
+  padding: 12px;
+  background-color: #007bff; /* blue button */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 17px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Button Hover Effect */
+form button:hover {
+  background-color: #0056b3; /* darker blue on hover */
+}
+
+/* Special Table Styling for Search Page Only */
+.summary-table-wrapper {
+  margin-top: 40px;
+}
+
+.summary-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+.summary-table th,
+.summary-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.summary-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+/* Form Group Style */
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  font-weight: 600;
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #333;
+}
